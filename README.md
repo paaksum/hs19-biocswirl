@@ -15,6 +15,7 @@ Our goal is to develop swirlify() style console/terminal based courses for the p
 
 
 #HACKSEQ 2019 PLAN
+
 Day 1: 
 
    i. MORNING  MEETING: 
