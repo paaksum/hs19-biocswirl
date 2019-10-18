@@ -1,0 +1,63 @@
+- Class: meta
+  Course: BiocSwirl
+  Lesson: Processing Raw Reads
+  Author: Paaksum Wong
+  Type: Standard
+  Organization: The University of British Columbia
+  Version: 1.0
+
+- Class: text
+  Output: Welcome to BiocSwirl - Terminal based Bioconductor Courses. This lesson will cover how to install required packages, loading scRNA data and exploring various visualization methods, and processing raw reads.
+
+- Class: text
+  Output: First, let's install the required packages.
+
+- Class: cmd_question
+  Output: Enter 2 + 2
+  CorrectAnswer: 2 + 2
+  AnswerTests: omnitest(correctExpr='2 + 2')
+  Hint: Type 2 + 2
+
+- Class: mult_question
+  Output: Type your text output here.
+  AnswerChoices: ANS;2;3
+  CorrectAnswer: ANS
+  AnswerTests: omnitest(correctVal='ANS')
+  Hint: ANS is correct.
+
+- Class: figure
+  Output: Look at this figure!
+  Figure: draw.R
+  FigureType: new
+
+- Class: figure
+  Output: I added a line!
+  Figure: add_a_line.R
+  FigureType: add
+
+- Class: script
+  Output: Write a boring function.
+  AnswerTests: test_func1()
+  Hint: Delete the pound sign.
+  Script: boring_function.R
+
+- Class: video
+  Output: Do you want to go to Google?
+  VideoLink: https://www.google.com/
+
+- Class: exact_question
+  Output: Type 3.
+  CorrectAnswer: 3
+  AnswerTests: omnitest(correctVal = 3)
+  Hint: Type 3
+
+- Class: text_question
+  Output: Type 'Hello'
+  CorrectAnswer: 'Hello'
+  AnswerTests: omnitest(correctVal = 'Hello')
+  Hint: Type Hello
+
+- Class: figure
+  Output: Look at this html file.
+  Figure: html.R
+  FigureType: new
